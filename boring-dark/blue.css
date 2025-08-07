@@ -71,12 +71,12 @@
 
 /* .dark\:active\:bg-pink-800\/40:active:is(.boring-dark *) {
     background-color: rgba(23, 81, 157, 0.4) !important;
-}
+} */
 
-.bg-pink-500 {
+.bg-pink-500:is(.boring-dark *) {
     background-color: rgb(123, 229, 239) !important;
 }
 
-[class="bg-pink-500/15"]:is(.boring-dark *) {
+/* [class="bg-pink-500/15"]:is(.boring-dark *) {
     background-color: rgba(25, 42, 92, 0.15) !important;
 } */
