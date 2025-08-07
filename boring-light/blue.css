@@ -1,0 +1,61 @@
+.boring-light {
+    --background: 222 24% 84%;
+    /* --foreground: 270 20% 97.8%; */
+    --card: 228 12% 84%;
+    /* --card-foreground: 240 4.8% 95.9%; */
+    --popover: 180 4% 95%;
+    /* --popover-foreground: 326 33% 96%; */
+    --primary: 216 49% 59%;
+    --primary-foreground: 232 70% 13%;
+    --secondary: 199 32% 81%;
+    --secondary-foreground: 216 12% 16%;
+    --muted: 199 9% 59%;
+    --muted-foreground: 212 12% 31%;
+    --accent: 215 33% 62%;
+    /* --accent-foreground: 326 33% 96%; */
+    --destructive: 0 79% 43%;
+    /* --destructive-foreground: 0 0% 100%; */
+    --border: 213 20% 58%;
+    --input: 228 61% 72%;
+    --ring: 240 37% 43%;
+    /* --chart-1: 220 70% 50%; */
+    /* --chart-2: 160 60% 45%; */
+    /* --chart-3: 30 80% 55%; */
+    /* --chart-4: 280 65% 60%; */
+    /* --chart-5: 340 75% 55%; */
+    --sidebar-background: 206 39% 67%;
+    --sidebar-foreground: 233 22% 31%;
+    /* --sidebar-primary: 224.3 76.3% 48%; */
+    /* --sidebar-primary-foreground: 0 0% 100%; */
+    --sidebar-accent: 203 25% 90%;
+    /* --sidebar-accent-foreground: 240 4.8% 95.9%; */
+    /* --sidebar-border: 0 0% 0%; */
+    /* --sidebar-ring: 333.3 71.4% 50.6%; */
+    --gradient-noise-top: 204 8% 88%;
+    --color-heading: 231 18% 14%;
+    --chat-border: 215 19% 59%;
+    --chat-background: 225 13% 94%;
+    /* --chat-accent: rgba(25, 21, 30, .86); */
+    /* --chat-input-gradient: 289 23% 23%; */
+    /* --chat-input-background: hsla(270, 10%, 20%, var(--blur-fallback, 0.4)); */
+    /* --chat-overlay: hsla(270, 12%, 16%, var(--blur-fallback, 0.71)); */
+    --wordmark-color: 231 37% 43%;
+
+    --c: 224 37% 43% !important;
+}
+
+.boring-light .border-reflect {
+    --gradientBorder-gradient: linear-gradient(180deg, #33399300, #334d93bd, #33589317), linear-gradient(15deg, #3350931f 50%, #334593bd) !important;
+}
+
+/* .dark\:active\:bg-pink-800\/40:active:is(.boring-dark *) {
+    background-color: rgba(23, 157, 30, 0.4) !important;
+} */
+
+.bg-pink-500:is(.boring-light *) {
+    background-color: rgb(25, 103, 148) !important;
+}
+
+/* [class="bg-pink-500/15"]:is(.boring-dark *) {
+    background-color: rgba(38, 92, 25, 0.15) !important;
+} */
