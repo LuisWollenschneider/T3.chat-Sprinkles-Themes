@@ -4,9 +4,9 @@ This is a collection of themes for [T3.chat](https://t3.chat) that can be used w
 
 ---
 
-These themes are activated for the "boring-dark" mode.
+These themes are activated for the "boring-light" and "boring-dark" mode.
 
-To activate, set your t3.chat theme to "dark" and toggle the "Boring Theme" option in your [t3.chat settings](https://t3.chat/settings/customization) under "Visual Options".
+To activate, toggle the "Boring Theme" option in your [t3.chat settings](https://t3.chat/settings/customization) under "Visual Options".
 
 ---
 
@@ -19,7 +19,7 @@ To activate, set your t3.chat theme to "dark" and toggle the "Boring Theme" opti
 2 ways to use these themes:
 
 ### **Copy and paste the CSS**
-1. Choose your desired theme file (e.g., `green.css`, `blue.css`, etc.)
+1. Choose your desired theme file (e.g., `boring-dark/blue.css`, `boring-light/green.css`, etc.)
 2. Copy the the file to `/path/to/sprinkles/t3.chat.css`
 
 ### **Use the setup script**
@@ -27,10 +27,10 @@ To activate, set your t3.chat theme to "dark" and toggle the "Boring Theme" opti
 ```sh
 git clone https://github.com/LuisWollenschneider/T3.chat-Sprinkles-Themes.git
 ```
-2. Choose your desired theme file (e.g., `green.css`, `blue.css`, etc.)
+2. Choose your desired theme file (e.g., `boring-dark/blue.css`, `boring-light/green.css`, etc.)
 3. Run the setup script:
 ```sh
-sh setup.sh chosen-theme.css /path/to/sprinkles/ [-c]
+sh setup.sh path/to/chosen-theme.css path/to/sprinkles/ [-c]
 ```
 - By default, a symlink from the Sprinkles directory to the theme file will be created
 - The `-c` option will copy the file instead of creating a symlink
@@ -39,15 +39,35 @@ sh setup.sh chosen-theme.css /path/to/sprinkles/ [-c]
 
 ## Creating a new theme
 
-The colors inside the `.boring-dark` selector are defined as HSL values.
+The colors inside the `boring-light` and `.boring-dark` selectors are defined as HSL values.
 
 The variables **must** remain in HSL format without the `hsl()` function.
 
 If you want to use e.g. the Visual Studio Code color picker, you have to add the `hsl()` function beforehand.
 Feel free to use the `toggle_hsl.py` script to toggle add and remove the `hsl()` function from the variables.
 ```sh
-python3 toggle_hsl.py /path/to/your/theme.css [--add | -a | --remove | -r]
+python3 toggle_hsl.py path/to/your/theme.css [--add | -a | --remove | -r]
 ```
+
+## Combination of themes
+
+You can combine themes by simply joining the CSS files together.
+
+Either by hand, or by using the `combine.sh` script:
+```sh
+sh combine.sh path/to/theme1.css path/to/theme2.css
+```
+You can combine up to 4 themes this way. However, only from distinct theme categories:
+- `boring-dark`
+- `boring-light`
+- `dark`
+- `light`
+
+The script will create a new file inside the `combinations/` directory with the name:
+```
+bd-filename1_l-filename2_.css
+```
+Where `bd` stands for `boring-dark`, `l` for `light`, and so on.
 
 ---
 
