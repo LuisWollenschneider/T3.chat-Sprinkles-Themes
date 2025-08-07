@@ -1,0 +1,82 @@
+.boring-dark {
+    --background: hsl(226, 25%, 10%);
+    /* --foreground: hsl(270, 20%, 97.8%); */
+    --card: hsl(240, 16%, 4%);
+    /* --card-foreground: hsl(240, 4.8%, 95.9%); */
+    --popover: hsl(244, 68%, 5%);
+    /* --popover-foreground: hsl(326, 33%, 96%); */
+    --primary: hsl(211, 57%, 41%);
+    --primary-foreground: hsl(198, 46%, 78%);
+    --secondary: hsl(229, 15%, 21%);
+    --secondary-foreground: hsl(202, 12%, 87%);
+    --muted: hsl(120, 9%, 25%);
+    --muted-foreground: hsl(107, 13%, 87%);
+    --accent: hsl(229, 15%, 21%);
+    /* --accent-foreground: hsl(326, 33%, 96%); */
+    --destructive: hsl(0, 93%, 27%);
+    /* --destructive-foreground: hsl(0, 0%, 100%); */
+    --border: hsl(236, 50%, 11%);
+    --input: hsl(231, 49%, 16%);
+    --ring: hsl(227, 23%, 49%);
+    /* --chart-1: hsl(220, 70%, 50%); */
+    /* --chart-2: hsl(160, 60%, 45%); */
+    /* --chart-3: hsl(30, 80%, 55%); */
+    /* --chart-4: hsl(280, 65%, 60%); */
+    /* --chart-5: hsl(340, 75%, 55%); */
+    --sidebar-background: hsl(240, 9%, 9%);
+    --sidebar-foreground: hsl(236, 15%, 21%);
+    /* --sidebar-primary: hsl(224.3, 76.3%, 48%); */
+    /* --sidebar-primary-foreground: hsl(0, 0%, 100%); */
+    --sidebar-accent: hsl(232, 11%, 14%);
+    /* --sidebar-accent-foreground: hsl(240, 4.8%, 95.9%); */
+    /* --sidebar-border: hsl(0, 0%, 0%); */
+    /* --sidebar-ring: hsl(333.3, 71.4%, 50.6%); */
+    --gradient-noise-top: hsl(240, 13%, 9%);
+    --color-heading: hsl(220, 41%, 69%);
+    --chat-border: hsl(227, 13%, 34%);
+    --chat-background: hsl(228, 10%, 10%);
+    /* --chat-accent: rgba(25, 21, 30, .86); */
+    /* --chat-input-gradient: hsl(289, 23%, 23%); */
+    /* --chat-input-background: hsla(270, 10%, 20%, var(--blur-fallback, 0.4)); */
+    /* --chat-overlay: hsla(270, 12%, 16%, var(--blur-fallback, 0.71)); */
+    --wordmark-color: hsl(196, 37%, 43%);
+
+    --c: hsl(190, 37%, 43%) !important;
+}
+
+.prose.prose-pink:is(.boring-dark *) {
+    --tw-prose-td-borders: #4ab2e2;
+    --tw-prose-th-borders: #3ac8c8;
+    /* --tw-prose-pre-bg: rgba(0, 0, 0, .5); */
+    --tw-prose-pre-code: #4a7fe2;
+    /* --tw-prose-code: #fff; */
+    --tw-prose-kbd-shadows: #f8f8fb;
+    /* --tw-prose-kbd: #fff; */
+    --tw-prose-captions: #3a99c8;
+    --tw-prose-quote-borders: #4abee2;
+    --tw-prose-quotes: #ebf0fa;
+    --tw-prose-hr: #4ab7e2;
+    --tw-prose-bullets: #64a2b9;
+    --tw-prose-counters: #6494b9;
+    --tw-prose-bold: #ebf6fa;
+    --tw-prose-links: #4a9ee2;
+    --tw-prose-lead: #3a8fc8;
+    --tw-prose-headings: #f7f9fd;
+    --tw-prose-body: #ebeefa;
+}
+
+.boring-dark .border-reflect {
+    --gradientBorder-gradient: linear-gradient(180deg, #335d9300, #335893bd, #33339317), linear-gradient(15deg, #3351931f 50%, #337693bd) !important;
+}
+
+/* .dark\:active\:bg-pink-800\/40:active:is(.boring-dark *) {
+    background-color: rgba(23, 81, 157, 0.4) !important;
+}
+
+.bg-pink-500 {
+    background-color: rgb(123, 229, 239) !important;
+}
+
+[class="bg-pink-500/15"]:is(.boring-dark *) {
+    background-color: rgba(25, 42, 92, 0.15) !important;
+} */
