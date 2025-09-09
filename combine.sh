@@ -45,28 +45,38 @@ if [[ ${#used_themes[@]} -lt ${#themes[@]} ]]; then
     exit 1
 fi
 
+# sort files_to_join
+IFS=$'\n' files_to_join=($(sort <<<"${files_to_join[*]}"))
+unset IFS
+
 file_name=""
 
+echo "Themes to combine:"
 for theme in "${files_to_join[@]}"; do
     theme_name=$(realpath "$theme")
     dir_name="$(basename "$(dirname "$theme_name")")"
     theme_name=$(basename "$theme_name")
     theme_name="${theme_name%.css}"
+    fn=""
 
     # contains "boring" in the name
     if [[ "$dir_name" == *"boring"* ]]; then
-        file_name+="b"
+        fn+="b"
     fi
 
     if [[ "$dir_name" == *"dark"* ]]; then
-        file_name+="d"
+        fn+="d"
     elif [[ "$dir_name" == *"light"* ]]; then
-        file_name+="l"
+        fn+="l"
     fi
 
-    file_name+="-${theme_name}_"
+    fn+="-${theme_name}"
+    echo "- $dir_name/$theme_name.css (as $fn)"
+
+    file_name+="${fn}_"
 done
 
+echo ""
 file_name="${file_name%_}"  # remove trailing underscore
 
 OUTPUT_FILE="${OUTPUT_DIR}/${file_name}.css"
