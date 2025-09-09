@@ -1,47 +1,47 @@
 .boring-light {
-    --background: 137 25% 84%;
-    /* --foreground: 270 20% 97.8%; */
-    --card: 120 12% 84%;
-    /* --card-foreground: 240 4.8% 95.9%; */
-    --popover: 120 4% 95%;
-    /* --popover-foreground: 326 33% 96%; */
-    --primary: 115 49% 59%;
-    --primary-foreground: 113 70% 13%;
-    --secondary: 120 32% 81%;
-    --secondary-foreground: 120 12% 16%;
-    --muted: 120 9% 59%;
-    --muted-foreground: 111 12% 31%;
-    --accent: 120 33% 62%;
-    /* --accent-foreground: 326 33% 96%; */
-    --destructive: 0 79% 43%;
-    /* --destructive-foreground: 0 0% 100%; */
-    --border: 114 20% 58%;
-    --input: 120 61% 72%;
-    --ring: 137 37% 43%;
-    /* --chart-1: 220 70% 50%; */
-    /* --chart-2: 160 60% 45%; */
-    /* --chart-3: 30 80% 55%; */
-    /* --chart-4: 280 65% 60%; */
-    /* --chart-5: 340 75% 55%; */
-    --sidebar-background: 120 39% 67%;
-    --sidebar-foreground: 120 22% 31%;
-    /* --sidebar-primary: 224.3 76.3% 48%; */
-    /* --sidebar-primary-foreground: 0 0% 100%; */
-    --sidebar-accent: 120 24% 90%;
-    /* --sidebar-accent-foreground: 240 4.8% 95.9%; */
-    /* --sidebar-border: 0 0% 0%; */
-    /* --sidebar-ring: 333.3 71.4% 50.6%; */
-    --gradient-noise-top: 120 9% 88%;
-    --color-heading: 138 18% 14%;
-    --chat-border: 120 19% 59%;
-    --chat-background: 120 13% 94%;
+    --background: hsl(137, 25%, 84%);
+    /* --foreground: hsl(270, 20%, 97.8%); */
+    --card: hsl(120, 12%, 84%);
+    /* --card-foreground: hsl(240, 4.8%, 95.9%); */
+    --popover: hsl(120, 4%, 95%);
+    /* --popover-foreground: hsl(326, 33%, 96%); */
+    --primary: hsl(115, 49%, 59%);
+    --primary-foreground: hsl(113, 70%, 13%);
+    --secondary: hsl(120, 32%, 81%);
+    --secondary-foreground: hsl(120, 12%, 16%);
+    --muted: hsl(120, 9%, 59%);
+    --muted-foreground: hsl(111, 12%, 31%);
+    --accent: hsl(120, 33%, 62%);
+    /* --accent-foreground: hsl(326, 33%, 96%); */
+    --destructive: hsl(0, 79%, 43%);
+    /* --destructive-foreground: hsl(0, 0%, 100%); */
+    --border: hsl(114, 20%, 58%);
+    --input: hsl(120, 61%, 72%);
+    --ring: hsl(137, 37%, 43%);
+    /* --chart-1: hsl(220, 70%, 50%); */
+    /* --chart-2: hsl(160, 60%, 45%); */
+    /* --chart-3: hsl(30, 80%, 55%); */
+    /* --chart-4: hsl(280, 65%, 60%); */
+    /* --chart-5: hsl(340, 75%, 55%); */
+    --sidebar-background: hsl(120, 39%, 67%);
+    --sidebar-foreground: hsl(120, 22%, 31%);
+    /* --sidebar-primary: hsl(224.3, 76.3%, 48%); */
+    /* --sidebar-primary-foreground: hsl(0, 0%, 100%); */
+    --sidebar-accent: hsl(120, 24%, 90%);
+    /* --sidebar-accent-foreground: hsl(240, 4.8%, 95.9%); */
+    /* --sidebar-border: hsl(0, 0%, 0%); */
+    /* --sidebar-ring: hsl(333.3, 71.4%, 50.6%); */
+    --gradient-noise-top: hsl(120, 9%, 88%);
+    --color-heading: hsl(138, 18%, 14%);
+    --chat-border: hsl(120, 19%, 59%);
+    --chat-background: hsl(120, 13%, 94%);
     /* --chat-accent: rgba(25, 21, 30, .86); */
-    /* --chat-input-gradient: 289 23% 23%; */
+    /* --chat-input-gradient: hsl(289, 23%, 23%); */
     /* --chat-input-background: hsla(270, 10%, 20%, var(--blur-fallback, 0.4)); */
     /* --chat-overlay: hsla(270, 12%, 16%, var(--blur-fallback, 0.71)); */
-    --wordmark-color: 137 37% 43%;
+    --wordmark-color: hsl(137, 37%, 43%);
 
-    --c: 137 37% 43% !important;
+    --c: hsl(137, 37%, 43%) !important;
 }
 
 .boring-light .border-reflect {

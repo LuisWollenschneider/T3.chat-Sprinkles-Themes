@@ -1,47 +1,47 @@
 .boring-dark {
-    --background: 138 25% 10%;
-    /* --foreground: 270 20% 97.8%; */
-    --card: 120 15.8% 3.7%;
-    /* --card-foreground: 240 4.8% 95.9%; */
-    --popover: 124 68% 5%;
-    /* --popover-foreground: 326 33% 96%; */
-    --primary: 114 57% 41%;
-    --primary-foreground: 114 46% 78%;
-    --secondary: 120 15.1% 20.8%;
-    --secondary-foreground: 120 13% 87%;
-    --muted: 120 9% 25%;
-    --muted-foreground: 107 13% 87%;
-    --accent: 120 15.1% 20.8%;
-    /* --accent-foreground: 326 33% 96%; */
-    --destructive: 22 93% 27%;
-    /* --destructive-foreground: 0 0% 100%; */
-    --border: 114 51% 11%;
-    --input: 120 74% 12%;
-    --ring: 137 37% 43%;
-    /* --chart-1: 220 70% 50%; */
-    /* --chart-2: 160 60% 45%; */
-    /* --chart-3: 30 80% 55%; */
-    /* --chart-4: 280 65% 60%; */
-    /* --chart-5: 340 75% 55%; */
-    --sidebar-background: 120 7% 9%;
-    --sidebar-foreground: 120 15.1% 20.8%;
-    /* --sidebar-primary: 224.3 76.3% 48%; */
-    /* --sidebar-primary-foreground: 0 0% 100%; */
-    --sidebar-accent: 120 11% 14%;
-    /* --sidebar-accent-foreground: 240 4.8% 95.9%; */
-    /* --sidebar-border: 0 0% 0%; */
-    /* --sidebar-ring: 333.3 71.4% 50.6%; */
-    --gradient-noise-top: 120 15% 9%;
-    --color-heading: 137 37% 43%;
-    --chat-border: 120 13% 34%;
-    --chat-background: 120 10% 10%;
+    --background: hsl(138, 25%, 10%);
+    /* --foreground: hsl(270, 20%, 97.8%); */
+    --card: hsl(120, 15.8%, 3.7%);
+    /* --card-foreground: hsl(240, 4.8%, 95.9%); */
+    --popover: hsl(124, 68%, 5%);
+    /* --popover-foreground: hsl(326, 33%, 96%); */
+    --primary: hsl(114, 57%, 41%);
+    --primary-foreground: hsl(114, 46%, 78%);
+    --secondary: hsl(120, 15.1%, 20.8%);
+    --secondary-foreground: hsl(120, 13%, 87%);
+    --muted: hsl(120, 9%, 25%);
+    /* --muted-foreground: hsl(107, 13%, 87%); */
+    --accent: hsl(120, 15.1%, 20.8%);
+    /* --accent-foreground: hsl(326, 33%, 96%); */
+    --destructive: hsl(22, 93%, 27%);
+    /* --destructive-foreground: hsl(0, 0%, 100%); */
+    --border: hsl(114, 51%, 11%);
+    --input: hsl(120, 74%, 12%);
+    --ring: hsl(137, 37%, 43%);
+    /* --chart-1: hsl(220, 70%, 50%); */
+    /* --chart-2: hsl(160, 60%, 45%); */
+    /* --chart-3: hsl(30, 80%, 55%); */
+    /* --chart-4: hsl(280, 65%, 60%); */
+    /* --chart-5: hsl(340, 75%, 55%); */
+    --sidebar-background: hsl(120, 7%, 9%);
+    --sidebar-foreground: hsl(120, 15.1%, 20.8%);
+    /* --sidebar-primary: hsl(224.3, 76.3%, 48%); */
+    /* --sidebar-primary-foreground: hsl(0, 0%, 100%); */
+    --sidebar-accent: hsl(120, 11%, 14%);
+    /* --sidebar-accent-foreground: hsl(240, 4.8%, 95.9%); */
+    /* --sidebar-border: hsl(0, 0%, 0%); */
+    /* --sidebar-ring: hsl(333.3, 71.4%, 50.6%); */
+    --gradient-noise-top: hsl(120, 15%, 9%);
+    --color-heading: hsl(137, 37%, 43%);
+    --chat-border: hsl(120, 13%, 34%);
+    --chat-background: hsl(120, 10%, 10%);
     /* --chat-accent: rgba(25, 21, 30, .86); */
-    /* --chat-input-gradient: 289 23% 23%; */
+    /* --chat-input-gradient: hsl(289, 23%, 23%); */
     /* --chat-input-background: hsla(270, 10%, 20%, var(--blur-fallback, 0.4)); */
     /* --chat-overlay: hsla(270, 12%, 16%, var(--blur-fallback, 0.71)); */
-    --wordmark-color: 137 37% 43%;
+    --wordmark-color: hsl(137, 37%, 43%);
 
-    --c: 137 37% 43% !important;
+    --c: hsl(137, 37%, 43%) !important;
 }
 
 .prose.prose-pink:is(.boring-dark *) {
