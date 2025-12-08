@@ -1,4 +1,4 @@
-.boring-dark {
+.theme-boring:where(.dark, .dark *) {
     --background: hsl(138, 25%, 10%);
     /* --foreground: hsl(270, 20%, 97.8%); */
     --card: hsl(120, 15.8%, 3.7%);
@@ -44,7 +44,7 @@
     --c: hsl(137, 37%, 43%) !important;
 }
 
-.prose.prose-pink:is(.boring-dark *) {
+.prose.prose-pink:is(.theme-boring:where(.dark, .dark *)) {
     --tw-prose-td-borders: #59e24a;
     --tw-prose-th-borders: #4ac83a;
     /* --tw-prose-pre-bg: rgba(0, 0, 0, .5); */
@@ -65,7 +65,7 @@
     --tw-prose-body: #ebfaf0;
 }
 
-.boring-dark .border-reflect {
+.theme-boring:where(.dark, .dark *) .border-reflect {
     --gradientBorder-gradient: linear-gradient(180deg, #33934300, #33934ebd, #33935117), linear-gradient(15deg, #3393501f 50%, #339335bd) !important;
 }
 

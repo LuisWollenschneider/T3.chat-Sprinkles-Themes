@@ -1,4 +1,4 @@
-.boring-light {
+.theme-boring:where(.light, .light *) {
     --background: hsl(137, 25%, 84%);
     /* --foreground: hsl(270, 20%, 97.8%); */
     --card: hsl(120, 12%, 84%);
@@ -44,7 +44,7 @@
     --c: hsl(137, 37%, 43%) !important;
 }
 
-.boring-light .border-reflect {
+.theme-boring:where(.light, .light *) .border-reflect {
     --gradientBorder-gradient: linear-gradient(180deg, #33934300, #33934ebd, #33935117), linear-gradient(15deg, #3393501f 50%, #339335bd) !important;
 }
 
@@ -52,7 +52,7 @@
     background-color: rgba(23, 157, 30, 0.4) !important;
 } */
 
-.bg-pink-500:is(.boring-light *) {
+.bg-pink-500:is(.theme-boring:where(.light, .light *)) {
     background-color: rgb(25, 148, 52) !important;
 }
 
