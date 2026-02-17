@@ -41,10 +41,13 @@
     /* --chat-overlay: hsla(270, 12%, 16%, var(--blur-fallback, 0.71)); */
     --wordmark-color: hsl(196, 37%, 43%);
 
+    --color-pink-500: hsl(190, 37%, 43%) !important;
+    
     --c: hsl(190, 37%, 43%) !important;
 }
 
-.prose.prose-pink:is(.theme-boring:where(.dark, .dark *)) {
+.prose.prose-pink:is(.dark *),
+.prose:is(.theme-boring:where(.dark, .dark *)) {
     --tw-prose-td-borders: #4ab2e2;
     --tw-prose-th-borders: #3ac8c8;
     /* --tw-prose-pre-bg: rgba(0, 0, 0, .5); */
@@ -56,7 +59,7 @@
     --tw-prose-quote-borders: #4abee2;
     --tw-prose-quotes: #ebf0fa;
     --tw-prose-hr: #4ab7e2;
-    --tw-prose-bullets: #64a2b9;
+    --tw-prose-bullets: oklch(0.71 0.1535 253.33);
     --tw-prose-counters: #6494b9;
     --tw-prose-bold: #ebf6fa;
     --tw-prose-links: #4a9ee2;

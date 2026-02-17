@@ -41,9 +41,12 @@
     /* --chat-overlay: hsla(270, 12%, 16%, var(--blur-fallback, 0.71)); */
     --wordmark-color: hsl(137, 37%, 43%);
 
+    --color-pink-500: hsl(137, 37%, 43%) !important;
+
     --c: hsl(137, 37%, 43%) !important;
 }
 
+.prose.prose-pink:is(.dark *),
 .prose.prose-pink:is(.theme-boring:where(.dark, .dark *)) {
     --tw-prose-td-borders: #59e24a;
     --tw-prose-th-borders: #4ac83a;
@@ -56,7 +59,7 @@
     --tw-prose-quote-borders: #59e24a;
     --tw-prose-quotes: #ebfaee;
     --tw-prose-hr: #59e24a;
-    --tw-prose-bullets: #6cb964;
+    --tw-prose-bullets: oklch(67.781% 0.18029 135.794);
     --tw-prose-counters: #6cb964;
     --tw-prose-bold: #ebfaec;
     --tw-prose-links: #59e24a;
