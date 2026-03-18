@@ -83,3 +83,8 @@
 /* [class="bg-pink-500/15"]:is(.boring-dark *) {
     background-color: rgba(25, 42, 92, 0.15) !important;
 } */
+
+textarea {
+    /* fixes image gen input text color */
+    color: var(--foreground);
+}
